@@ -1,0 +1,140 @@
+
+
+
+@media (max-width : 600px){
+
+    /* Nav Part */
+    #nav{
+        width: 100%;
+        padding: 2%;
+        margin-left: 0;
+
+    }
+
+    #nav img{
+        width: 40%;
+    }
+
+    #nav #links{
+        display: none;
+    }
+
+    #route{
+        padding: 10px;
+    }
+
+    #home{
+        width: 100%;
+        height: 140vh;
+    }
+
+    #home #hometext{
+        font-size: 45px;
+        text-align:center;
+        margin: 50px 40px;
+        line-height: 50px;
+        width: 80%;
+    }
+
+    #all{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50vh;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    #card{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 50px;
+        border-top: 2px solid #dadada;
+        padding-top: 10px;
+    }
+
+    #card h1{
+        display: none;
+    }
+
+    #bottom{
+        width: 100%;
+        height: 50vh;
+    }
+
+    #bottom img{
+        width: 350px;
+    }
+
+    #footer{
+        width: 100%;
+        min-height: 40vh;
+
+    }
+
+    #footer #footerimg{
+        width: 100px;
+    }
+
+/* Recipe Page */
+
+    #RecipePage #heading{
+        margin-bottom: 15vh;
+    }
+
+    #RecipePage a{
+        left: 44%;
+        top: 28%;
+
+    }
+
+
+    #RecipeCards{
+        display: flex;
+        flex-direction: column;
+        min-height: 50vh;
+
+    }
+
+    #RecipeCard{
+        width: 100%;
+    }
+
+    #Details{
+        padding: 1px;
+        width: 100%;
+    }
+
+    #container{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #dets{
+        width: 100%;
+    }
+
+    #desc{
+        width: 100%;
+    }
+
+    #update{
+        width: 100%;
+    }
+
+    #create{
+        width: 100%;
+    }
+
+    #create input{
+        width: 100%;
+    }
+
+    #create textarea{
+        width: 100%;
+    }
+}
+
+
