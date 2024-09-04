@@ -15,6 +15,41 @@
         width: 40%;
     }
 
+    #nav #social{
+        display: none;
+    }
+
+    #menu{
+        display: initial;
+        font-size: 25px;
+        margin-right: 10px;
+        z-index: 99;
+    }
+
+    #overlay{
+        width: 95%;
+        height: 50vh;
+        background-color: #fff;
+        position: absolute;
+        top: -100%;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        z-index: 9;
+        transition: all ease .3s;
+
+
+    }
+
+    #overlay a{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
     #nav #links{
         display: none;
     }
@@ -134,6 +169,100 @@
 
     #create textarea{
         width: 100%;
+    }
+
+    #first{
+        width: 40%;
+    }
+
+    #acnt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10vh;
+    }
+
+    #aleft{
+        width: 100%;
+
+    }
+
+    #aright{
+        width: 100%;
+    }
+
+    #miss img{
+        width: 60%;
+    }
+
+    #afoot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        gap: 40px;
+    }
+
+    #afoot input{
+        width: 100%;
+        
+
+    }
+
+    #afoot button{
+        padding: 10px 40px;
+        width: 50%;
+        border-radius: 5px;
+    }
+
+    #conimg{
+        width: 40%;
+    }
+
+    #concnt{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #conl{
+        width: 100%;
+    }
+
+    #conl img{
+        margin-left: 0;
+    }
+
+    #conr{
+        width: 100%;
+        margin-bottom: 10vh;
+    }
+
+    #conr #conform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    #conr input{
+        width: 100%;
+    }
+
+    #conr textarea{
+        width: 100%;
+    }
+
+    #conr button{
+        top: 146%;
+        left: 33%;
+    }
+
+    #conr #conform input:nth-child(2){
+        margin-left: 0;
     }
 }
 
